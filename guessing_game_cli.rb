@@ -26,4 +26,7 @@ def run_guessing_game
         compare(rnum, gnum)
       end
     end
+    
+  runner
+    
 end
