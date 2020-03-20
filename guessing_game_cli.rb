@@ -13,12 +13,13 @@ def run_guessing_game
     if rnum == gnum
       puts "You guessed the correct number!"
     else
-      puts "Sorry! The computer guessed <rnum>."
+      puts "Sorry! The computer guessed #{rnum}."
     end
   end
     
     def runner
       rnum = getran
+      puts "ran num is #{rnum}"
       gnum = getinput
       if gnum == "exit"
         return puts "Goodbye!"
