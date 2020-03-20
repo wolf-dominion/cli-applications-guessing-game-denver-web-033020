@@ -9,17 +9,18 @@ def run_guessing_game
     input
   end
   
-  def compare(rnum, gnum)
+  def compare(gnum, rnum)
     if rnum == gnum
       puts "You guessed the correct number!"
     else
-      puts "Sorry! The computer guessed #{gnum}."
+      puts "Sorry! The computer guessed #{rnum}."
     end
   end
     
     def runner
-      gnum = getran
-      rnum = getinput
+      rnum = getran
+      gnum = getinput
+      if gnum == "exit"
       compare(rnum, gnum)
     end
 end
