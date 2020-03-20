@@ -19,6 +19,7 @@ def run_guessing_game
     
     def runner
       rnum = getran
+      rnum = rnum.to_s
       gnum = getinput
       if gnum == "exit"
         return puts "Goodbye!"
