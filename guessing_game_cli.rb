@@ -20,6 +20,6 @@ def run_guessing_game
     def runner
       gnum = getran
       rnum = getinput
-      compare
+      compare(rnum, gnum)
     end
 end
