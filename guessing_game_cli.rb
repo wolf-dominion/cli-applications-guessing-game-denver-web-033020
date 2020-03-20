@@ -23,7 +23,7 @@ def run_guessing_game
       if gnum == "exit"
         return puts "Goodbye!"
       end
-      else
+      if gnum != "exit"
         compare(gnum, rnum)
       end
     end
