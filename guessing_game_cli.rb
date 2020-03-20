@@ -21,6 +21,7 @@ def run_guessing_game
       rnum = getran
       gnum = getinput
       if gnum == "exit"
+        return puts "Goodbye!"
       compare(rnum, gnum)
     end
 end
