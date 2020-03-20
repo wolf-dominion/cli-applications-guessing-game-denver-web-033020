@@ -5,7 +5,7 @@ def run_guessing_game
   end
   
   def getinput
-    input = gets
+    input = gets.chomp
     input
   end
   
