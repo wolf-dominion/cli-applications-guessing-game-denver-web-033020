@@ -15,6 +15,7 @@ def run_guessing_game
     else
       puts "Sorry! The computer guessed #{gnum}."
     end
+  end
     
     def runner
       gnum = getran
