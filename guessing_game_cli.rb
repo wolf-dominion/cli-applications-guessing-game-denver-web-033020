@@ -9,5 +9,9 @@ def run_guessing_game
     input
   end
   
+  def compare(rnum, gnum)
+    if rnum == gnum
+      puts ""
+  
   
 end
