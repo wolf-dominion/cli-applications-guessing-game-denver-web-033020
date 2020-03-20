@@ -1,7 +1,7 @@
 def run_guessing_game
   
   def getran
-    rand(1..6)+1
+    rand(6)+1
   end
   
   def getinput
