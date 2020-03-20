@@ -11,6 +11,8 @@ def run_guessing_game
   
   def compare(rnum, gnum)
     if rnum == gnum
+      puts "You guessed the correct number!"
+    else
       puts ""
   
   
