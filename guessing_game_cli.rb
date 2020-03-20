@@ -10,7 +10,7 @@ def run_guessing_game
   end
   
   def compare(gnum, rnum)
-    if rnum == gnum
+    if rnum.to_s == gnum
       puts "You guessed the correct number!"
     else
       puts "Sorry! The computer guessed #{rnum}."
