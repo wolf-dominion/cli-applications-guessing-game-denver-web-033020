@@ -13,7 +13,7 @@ def run_guessing_game
     if rnum.to_s == gnum
       puts "You guessed the correct number!"
     else
-      puts "Sorry! The computer guessed #{rnum}."
+      puts "Sorry! The computer guessed #{rnum.to_s}."
     end
   end
     
