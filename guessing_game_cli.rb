@@ -1,7 +1,7 @@
 def run_guessing_game
   
   def getran
-    rand(1..6)
+    rand(1..5)
   end
   
   def getinput
@@ -19,7 +19,6 @@ def run_guessing_game
     
     def runner
       rnum = getran
-      puts "ran num is #{rnum}"
       gnum = getinput
       if gnum == "exit"
         return puts "Goodbye!"
